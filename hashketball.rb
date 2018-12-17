@@ -183,7 +183,7 @@ def team_names
 end 
 
 def player_numbers(team_name)
-  find_team_name(team_name)[:players].collect {|player_name, stats| stats[:number]}
+  find_team_name(team_name)[:players].collect {|player_name, player_stats| player_stats[:number]}
   
 end 
 
