@@ -168,6 +168,10 @@ def teams
   game_hash.values 
 end 
 
+def team_names 
+  teams.collect {|t| t.fetch(:team_name)
+end 
+
 def team_colors(colors)
   
 end 
