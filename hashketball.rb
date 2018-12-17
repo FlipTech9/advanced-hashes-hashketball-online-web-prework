@@ -164,7 +164,6 @@ def shoe_size(name)
 end 
 
 def teams 
-   
   game_hash.values 
 end 
 
