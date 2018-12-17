@@ -175,7 +175,7 @@ end
 # end 
 
 def find_team_name(team_name)
-  team.find {|team| team.fetch(:team_name) == team_name}
+  teams.find {|team| team.fetch(:team_name) == team_name}
 end 
 
 def team_colors(team_name)
