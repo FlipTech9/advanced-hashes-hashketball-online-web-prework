@@ -179,6 +179,6 @@ end
 # end 
 
 def team_colors()
-  team = team_names(team_name)
+  team = team_names
   team.fetch(:colors)
 end 
