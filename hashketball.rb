@@ -143,5 +143,5 @@ end
 
 def num_points_scored(name)
   #returns number of points for player 
- 
+  
 end 
