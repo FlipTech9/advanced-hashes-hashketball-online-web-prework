@@ -164,9 +164,10 @@ def shoe_size(name)
 end 
 
 def teams 
-  binding.pry 
+  #binding.pry 
   game_hash.values 
 end 
+
 def team_colors(colors)
   
 end 
