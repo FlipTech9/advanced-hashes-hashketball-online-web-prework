@@ -141,10 +141,12 @@ end
 # good_practices
 
 def players
+  #merge list of players
   game_hash[:home][:players].merge(game_hash[:away][:players])
 end 
 
 def find_player(name)
+  #retrive player name
   players.fetch(name)
   
 end 
