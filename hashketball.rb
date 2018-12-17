@@ -147,6 +147,7 @@ end
 
 def find_player(name)
   #retrive player name
+  binding.pry 
   players.fetch(name)
   
 end 
@@ -164,7 +165,7 @@ def shoe_size(name)
 end 
 
 def teams 
-  binding.pry 
+  #binding.pry 
   game_hash.values 
 end 
 
