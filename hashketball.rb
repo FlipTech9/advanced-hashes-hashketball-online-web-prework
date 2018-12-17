@@ -141,7 +141,7 @@ end
 # good_practices
 
 def find_player(name)
-  players.fetch(name)
+  player.fetch(name)
   
 end 
 
