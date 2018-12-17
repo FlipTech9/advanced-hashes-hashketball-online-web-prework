@@ -145,7 +145,7 @@ def players
 end 
 
 def find_player(name)
-  player.fetch(name)
+  players.fetch(name)
   
 end 
 
