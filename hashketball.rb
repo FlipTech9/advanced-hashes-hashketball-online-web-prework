@@ -147,7 +147,6 @@ end
 
 def find_player(name)
   #retrive player name
-  binding.pry 
   players.fetch(name)
   
 end 
