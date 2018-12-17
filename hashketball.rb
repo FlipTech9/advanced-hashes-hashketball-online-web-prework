@@ -140,6 +140,10 @@ end
 
 # good_practices
 
+def players
+  game_hash[:home][:players]
+end 
+
 def find_player(name)
   player.fetch(name)
   
