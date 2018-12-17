@@ -160,5 +160,5 @@ end
 def shoe_size(name)
   #returns player shoe size 
   player = find_player(name)
-  player.fetch(:shoe_size)
+  player.fetch(:shoe)
 end 
