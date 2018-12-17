@@ -169,7 +169,7 @@ def teams
 end 
 
 def team_names 
-  teams.collect {|t| t.fetch(:team_name)
+  teams.collect {|t| t.fetch(:team_name)}
 end 
 
 def team_colors(colors)
