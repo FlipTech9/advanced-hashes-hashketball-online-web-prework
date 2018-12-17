@@ -186,3 +186,7 @@ def player_numbers(team_name)
   find_team_name(team_name)[:players].collect {|player_name, stats| stats[:number]}
   
 end 
+
+def player_stats
+  
+end 
