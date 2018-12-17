@@ -168,13 +168,15 @@ def teams
   game_hash.values 
 end 
 
-# def team_names 
-#   teams.collect {|t| t.fetch(:team_name)}
+def team_names 
+  teams.collect do |team|
+    team[:team_name]
+end 
+
+# def find_team_name(team_name)
+#   team.find {|team| team.fetch(:team_name) == team_name}
 # end 
 
-def find_team_name(team_name)
-  team.find {|team| team.fetch(:team_name) == team_name}
-end 
 def team_colors(team_name)
   
 end 
